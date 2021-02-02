@@ -25,6 +25,7 @@ public class Controller {
 		ArrayList<Text> lottoText = new ArrayList<>(
 				Arrays.asList(lotto01, lotto02, lotto03, lotto04, lotto05, lotto06));
 
+		
 		for(int i = 0; i< lottoText.size(); i++) {
 			lottoText.get(i).setText(String.valueOf(lotto.get(i)));
 		}
